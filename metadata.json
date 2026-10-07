@@ -1,0 +1,6 @@
+{
+  "name": "إلى أسيل - من القلب",
+  "description": "رسالة حب واعتذار خاصة لأسيل، وذكريات من القلب لا تُنسى.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
