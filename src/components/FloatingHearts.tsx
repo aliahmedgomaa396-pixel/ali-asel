@@ -14,7 +14,7 @@ export const FloatingHearts: React.FC = () => {
   const symbols = ['❤️', '💖', '🌹', '💕', '💗', '💌', '🤍'];
 
   useEffect(() => {
-    const initialHearts: FloatingHeart[] = Array.from({ length: 20 }, (_, i) => ({
+    const initialHearts: FloatingHeart[] = Array.from({ length: 22 }, (_, i) => ({
       id: i,
       left: Math.random() * 95,
       size: Math.floor(Math.random() * 20) + 14,

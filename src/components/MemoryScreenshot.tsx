@@ -84,7 +84,7 @@ export const MemoryScreenshot: React.FC = () => {
           انتي اول حب حياتي
         </h3>
         <p className="text-rose-200 text-base sm:text-lg font-serif-ar leading-relaxed">
-          «كلامك ده لسه عايش في قلبي ومش ناسيه ثانية واحدة.. وحشتيني يـ اسيل ونفسي تفهمي قد إيه إنتي غالية عندي.»
+          «كلامك ده لسه عايش في قلبي ومش ناسيه ثانية واحدة.. وحشتيني يـ اسولتي ونفسي تفهمي قد إيه إنتي غالية عندي.»
         </p>
       </div>
     </section>

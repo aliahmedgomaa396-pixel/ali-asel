@@ -75,7 +75,7 @@ export const LoveCounter: React.FC = () => {
         </div>
 
         <p className="mt-5 text-sm sm:text-base text-rose-200/90 font-serif-ar">
-          «كل ثانية بتعدي وإنتي في قلبي، ومكانك بيكبر أكتر وأكتر يـ اسيل ❤️»
+          «كل ثانية بتعدي وإنتي في قلبي، ومكانك بيكبر أكتر وأكتر يـ اسولتي ❤️»
         </p>
       </div>
     </section>

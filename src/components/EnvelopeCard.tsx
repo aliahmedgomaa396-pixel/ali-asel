@@ -10,15 +10,15 @@ export const EnvelopeCard: React.FC<EnvelopeCardProps> = ({ onCardOpened }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [copied, setCopied] = useState<boolean>(false);
 
-  const fullLetterText = `يـ اسيل بصي، أنا مش عارف أبدأ بإيه بس عامة هفهمك الأول..
+  const fullLetterText = `اسولتي بصي، أنا مش عارف أبدأ بإيه بس عامة هفهمك الأول..
 
 أولاً أنا فعلاً وربنا مكنتش بتكلم عليكي، كل ده كانت سلمى عاملاه ومتخطط لأجل إننا نكره بعض أنا وانتي وكمان إنتي عارفة بكدا..
 
 بس عامة بعيد عن الحوار ده كله، عايزك تعرفي إني ماليش غيرك مهما حصل ولا مهما كلمت.. هفضل أحبك إنتي وهتفضلي في قلبي لوحدك!
 
-وبردو مهما حصل هفضل جنبك ووراكي ومش هسمح لأي حد يضايقك أو يكلمك.. وبقولك إيه بجد، هو آه كلامك وجعني بس هتفضلي بردو البنت الأولى اللي حبيتها بجد.
+وبردو مهما حصل هفضل جنبك ووراكي ومش هسمح لأي حد يضايقك أو يكلمك.. وبقولك إيه بجد، هو آه كلامك فشخني بس هتفضلي بردو البنت الأولى اللي حبيتها بجد.
 
-وعامة أنا آه كنت بحاول أضايقك بأي كلمة في الدروس وكدا عشان ألفت نظرك، ولما كتبت ع الديسك مكنتش عايز حد يقربلك أو يدخللك نهائي، متسألينيش ليه لأني بغير عليكي وبحبك..
+وعامة أنا آه كنت بحاول أضايقك بأي كلمة في الدروس وكدا عشان ألفت نظرك، ولما كتبت ع الديسك مكنتش عايز حد يدخللك نهائي، متسألينيش ليه وأنا بحبك..
 
 وعامة مش بقول كدا عشان نرجع أو كدا، أنا بس بعرفك إنك لسه موجودة في قلبي ومكانك محفوظ، وإني مش هحب غيرك مهما حصل..
 
@@ -28,7 +28,7 @@ export const EnvelopeCard: React.FC<EnvelopeCardProps> = ({ onCardOpened }) => {
 
 كفاية الماسدج طولت أوي 😒😒😒
 
-بحبك ❤️`;
+بحبك يبت ❤️`;
 
   const handleOpen = () => {
     setIsOpen(true);
@@ -69,13 +69,13 @@ export const EnvelopeCard: React.FC<EnvelopeCardProps> = ({ onCardOpened }) => {
         <div className="relative mx-auto max-w-lg">
           <div className="text-center mb-6">
             <span className="inline-flex items-center gap-2 text-rose-300/90 text-sm font-medium tracking-wide font-cairo">
-              🌹 رسالة خاصة ليكي
+              🌹 رسالة من القلب
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white mt-2 font-display-ar">
-              افتحي الكارت يـ اسيل 💌
+              كلام عايز أقوله لـ اسولتي ❤️
             </h2>
-            <p className="text-rose-200/70 text-sm mt-2 font-cairo">
-              اضغطي على الختم أو الكارت عشان تقرأي كل اللي في قلبي
+            <p className="text-rose-200/80 text-sm mt-2 font-cairo">
+              افتحي الكارت يـ اسولتي عشان تقرأي كل اللي جوايا
             </p>
           </div>
 
@@ -96,24 +96,20 @@ export const EnvelopeCard: React.FC<EnvelopeCardProps> = ({ onCardOpened }) => {
               </div>
 
               <div className="space-y-2">
-                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-rose-500/20 text-rose-200 text-xs font-medium border border-rose-500/30 font-cairo">
-                  <Mail className="w-3.5 h-3.5" />
-                  كارت حب مخصوص
-                </div>
-                <h3 className="text-2xl font-bold text-white font-display-ar">
-                  كلام من ورا قلبي ليكي..
+                <h3 className="text-2xl sm:text-3xl font-bold text-white font-display-ar">
+                  افتحي الكارت يـ اسولتي
                 </h3>
                 <p className="text-xs text-rose-300/80 max-w-xs mx-auto font-cairo">
-                  اضغطي هنا عشان تفتحي الظرف وتقرأي الحقيقة وكل اللي في قلبي
+                  اضغطي هنا عشان تفتحي الظرف وتقرأي الكلام اللي في قلبي
                 </p>
               </div>
 
               <button
                 type="button"
-                className="mt-8 inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-rose-600 to-rose-500 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-rose-600/40 transition-all duration-200 hover:from-rose-500 hover:to-rose-400 hover:scale-105 active:scale-95 font-cairo"
+                className="mt-8 inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-rose-600 to-rose-500 px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-rose-600/40 transition-all duration-200 hover:from-rose-500 hover:to-rose-400 hover:scale-105 active:scale-95 font-cairo"
               >
                 <MailOpen className="w-4 h-4" />
-                افتحي الكارت الآن
+                افتحي الكارت
               </button>
             </div>
           </div>
@@ -129,7 +125,7 @@ export const EnvelopeCard: React.FC<EnvelopeCardProps> = ({ onCardOpened }) => {
               </div>
               <div>
                 <h3 className="text-xl sm:text-2xl font-bold text-white font-display-ar">
-                  رسالة من القلب.. إلى يـ اسيل
+                  كلام عايز أقوله لـ اسولتي
                 </h3>
                 <span className="text-xs text-rose-300/70 font-cairo">
                   كلام صادق من كل قلبي
@@ -160,10 +156,10 @@ export const EnvelopeCard: React.FC<EnvelopeCardProps> = ({ onCardOpened }) => {
           <div className="relative rounded-2xl bg-gradient-to-br from-rose-900/20 to-slate-900/60 border border-rose-500/20 p-5 sm:p-8 font-serif-ar leading-relaxed text-rose-50 text-base sm:text-lg sm:leading-loose shadow-inner space-y-5 text-justify">
             {/* Opening */}
             <div
-              className="text-right text-rose-300 text-lg font-display-ar font-bold animate-fade-in-up"
+              className="text-right text-rose-300 text-xl font-display-ar font-bold animate-fade-in-up"
               style={{ animationDelay: '0.1s' }}
             >
-              يـ اسيل.. 🌹
+              اسولتي بصي.. 🌹
             </div>
 
             {/* Paragraph 1 */}
@@ -171,7 +167,7 @@ export const EnvelopeCard: React.FC<EnvelopeCardProps> = ({ onCardOpened }) => {
               className="animate-fade-in-up"
               style={{ animationDelay: '0.25s' }}
             >
-              بصي، أنا مش عارف أبدأ بإيه بس عامة هفهمك الأول.. أولاً أنا فعلاً وربنا مكنتش بتكلم عليكي، كل ده كانت سلمى عاملاه ومتخطط لأجل إننا نكره بعض أنا وانتي وكمان إنتي عارفة بكدا..
+              أنا مش عارف أبدأ بإيه بس عامة هفهمك الأول.. أولاً أنا فعلاً وربنا مكنتش بتكلم عليكي، كل ده كانت سلمى عاملاه ومتخطط لأجل إننا نكره بعض أنا وانتي وكمان إنتي عارفة بكدا..
             </p>
 
             {/* Paragraph 2 (Highlighted & Glowing) */}
@@ -191,7 +187,7 @@ export const EnvelopeCard: React.FC<EnvelopeCardProps> = ({ onCardOpened }) => {
               className="animate-fade-in-up"
               style={{ animationDelay: '0.65s' }}
             >
-              وبردو مهما حصل هفضل جنبك ووراكي، وأي حد يكلمك.. وبقولك إيه بجد، هو آه كلامك وجعني بس هتفضلي بردو{' '}
+              وبردو مهما حصل هفضل جنبك ووراكي ومش هسمح لأي حد يضايقك أو يكلمك.. وبقولك إيه بجد، هو آه كلامك فشخني بس هتفضلي بردو{' '}
               <span className="text-glow-rose font-bold">البنت الأولى اللي حبيتها بجد</span>.
             </p>
 
@@ -200,8 +196,7 @@ export const EnvelopeCard: React.FC<EnvelopeCardProps> = ({ onCardOpened }) => {
               className="animate-fade-in-up"
               style={{ animationDelay: '0.85s' }}
             >
-              وعامة أنا آه كنت بحاول أضايقك بأي كلمة في الدروس وكدا عشان ألفت نظرك.. وعامة بردو لما كتبت ع الديسك مكنتش عايز حد يدخللك نهائي متسألينيش ليه، عشان أنا{' '}
-              <span className="text-glow-rose font-bold">بغير عليكي وبحبك بجد</span>.
+              وعامة أنا آه كنت بحاول أضايقك بأي كلمة في الدروس وكدا عشان ألفت نظرك.. وعامة بردو لما كتبت ع الديسك مكنتش عايز حد يدخللك نهائي، متسألينيش ليه وأنا بحبك.
             </p>
 
             {/* Paragraph 5 */}
@@ -209,10 +204,10 @@ export const EnvelopeCard: React.FC<EnvelopeCardProps> = ({ onCardOpened }) => {
               className="animate-fade-in-up"
               style={{ animationDelay: '1.05s' }}
             >
-              وعامة مش بقول كدا عشان نرجع أو كدا، أنا بس بعرفك إنك لسه موجودة في قلبي ومكانك محفوظ، وإني مش هحب غيرك مهما حصل.. وقسماً بالله العظيم أنا ما بحب سلمى، أنا لما كنت بكلمها كنت على نياتي وربنا مكنتش مصدق إن ممكن يحصل كدا..
+              وعامة مش بقول كدا عشان نرجع أو كدا، أنا بس بعرفك إنك لسه موجودة في قلبي ومكانك محفوظ، وإني مش هحب غيرك مهما حصل.. وقسماً بالله العظيم أنا ما بحب سلمى، أنا لما كنت بكلمها كنت على نياتي وربنا مكنتش مصدق إن ممكن يحصل كدا ولا كان في بالي.. بس بجد مش بحب إنك تزعلي مني أبداً..
             </p>
 
-            {/* Paragraph 6: Big Emotional Glowing Declaration */}
+            {/* Paragraph 6: Emotional Glowing Declaration */}
             <div
               className="pt-2 animate-fade-in-up"
               style={{ animationDelay: '1.25s' }}
@@ -224,7 +219,7 @@ export const EnvelopeCard: React.FC<EnvelopeCardProps> = ({ onCardOpened }) => {
               </p>
             </div>
 
-            {/* Footer Sign-off */}
+            {/* Sign-off */}
             <div
               className="pt-4 border-t border-rose-500/20 flex flex-col sm:flex-row items-center justify-between text-sm font-sans gap-2 animate-fade-in-up"
               style={{ animationDelay: '1.45s' }}
@@ -232,8 +227,8 @@ export const EnvelopeCard: React.FC<EnvelopeCardProps> = ({ onCardOpened }) => {
               <span className="text-rose-300/80 italic font-cairo">
                 كفاية الماسدج طولت أوي 😒😒😒
               </span>
-              <span className="text-2xl font-bold font-display-ar flex items-center gap-1.5">
-                <span className="text-glow-rose">بحبك ❤️</span>
+              <span className="text-2xl sm:text-3xl font-black font-display-ar flex items-center gap-1.5">
+                <span className="text-glow-rose">بحبك يبت ❤️</span>
               </span>
             </div>
           </div>

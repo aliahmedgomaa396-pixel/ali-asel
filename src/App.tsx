@@ -30,20 +30,25 @@ export default function App() {
       {/* Floating Gentle Hearts in Background */}
       <FloatingHearts />
 
-      {/* Amr Diab Song: Wahashtiny (Auto-starts on password unlock, clean display) */}
+      {/* Amr Diab Song: Wahashtiny (Auto-starts on password unlock) */}
       <MusicPlayer autoPlayTriggered={isUnlocked} />
 
       {/* Clean Top Bar */}
       <header className="sticky top-0 z-30 w-full border-b border-rose-500/20 bg-stone-950/80 backdrop-blur-md">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-          {/* Brand */}
-          <a
-            href="#"
-            className="text-lg sm:text-xl font-black text-rose-300 hover:text-white transition-colors tracking-tight font-display-ar flex items-center gap-2"
-          >
-            <Heart className="w-5 h-5 text-rose-500 fill-rose-500" />
-            <span>يـ اسيل & لولي</span>
-          </a>
+          {/* Brand with Cat Emojis in Top Right */}
+          <div className="flex items-center gap-2.5">
+            <span className="text-2xl select-none animate-pulse" title="اسولتي 😼😼">
+              😼😼
+            </span>
+            <a
+              href="#"
+              className="text-lg sm:text-xl font-black text-rose-300 hover:text-white transition-colors tracking-tight font-display-ar flex items-center gap-2"
+            >
+              <Heart className="w-5 h-5 text-rose-500 fill-rose-500" />
+              <span>اسولتي & لولي</span>
+            </a>
+          </div>
 
           {/* Primary Action */}
           <div className="flex items-center gap-3">
@@ -67,7 +72,7 @@ export default function App() {
           </div>
 
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-black text-white font-display-ar tracking-tight leading-tight">
-            وحشتيني... يـ اسيل 🌹
+            وحشتيني... يـ اسولتي 🌹
           </h1>
 
           <p className="mt-6 text-xl sm:text-2xl text-rose-200/90 font-serif-ar max-w-2xl mx-auto leading-relaxed">
@@ -80,7 +85,7 @@ export default function App() {
           <EnvelopeCard />
         </div>
 
-        {/* 2. Love Counter (4 years & March 11, 2026 11:07 PM anniversary) */}
+        {/* 2. Love Counter */}
         <LoveCounter />
 
         {/* 3. WhatsApp Memory Screenshot Section */}
@@ -95,11 +100,11 @@ export default function App() {
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-rose-300/70">
           <div className="flex items-center gap-1.5 font-display-ar text-rose-300 font-bold">
             <Heart className="w-4 h-4 fill-rose-500 text-rose-500" />
-            <span>يـ اسيل.. إنتي الأولى والأخيرة دايماً</span>
+            <span>اسولتي.. إنتي الأولى والأخيرة دايماً</span>
           </div>
 
-          <div>
-            بحبك دايماً ❤️
+          <div className="font-bold text-rose-300">
+            بحبك يبت ❤️
           </div>
         </div>
       </footer>

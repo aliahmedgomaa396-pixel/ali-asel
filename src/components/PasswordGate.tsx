@@ -74,12 +74,8 @@ export const PasswordGate: React.FC<PasswordGateProps> = ({ onUnlock }) => {
           <Lock className="h-8 w-8 text-rose-400" />
         </div>
 
-        <span className="inline-flex items-center gap-1.5 text-xs text-rose-300/80 font-cairo">
-          🌹 رسالة خاصة جداً
-        </span>
-
-        <h2 className="text-2xl font-bold text-white mt-1 font-display-ar">
-          خاص بـ يـ اسيل 🌹
+        <h2 className="text-2xl sm:text-3xl font-black text-white mt-2 font-display-ar flex items-center justify-center gap-2">
+          <span>ادخلي بالباسورد 😝❤️</span>
         </h2>
         <p className="text-xs text-rose-200/70 mt-1 mb-6 font-cairo">
           اكتبي الرقم السري الخاص بيكي عشان يفتح الموقع
@@ -102,7 +98,7 @@ export const PasswordGate: React.FC<PasswordGateProps> = ({ onUnlock }) => {
         {error && (
           <div className="mb-4 flex items-center justify-center gap-1.5 text-xs font-semibold text-rose-400 font-cairo">
             <AlertCircle className="w-3.5 h-3.5" />
-            <span>الرقم السري مش صح.. جربي تاني 🥺</span>
+            <span>الرقم السري مش صح يا اسولتي.. جربي تاني 🥺</span>
           </div>
         )}
 
